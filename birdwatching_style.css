@@ -1,0 +1,76 @@
+/* Basic page setup */
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+.flex-container {
+    background-color: rgba(0, 255, 0, 0.5);
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;/ limits width so it looks like the example */ margin: 0 auto;
+}
+
+/* Applying background to the semantic regions */
+header,
+nav,
+main,
+aside,
+footer {
+    background-color: rgba(0, 255, 0, 0.5);
+    padding: 1%;
+    margin: 1%;
+}
+
+/* Header layout */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation layout */
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a,
+nav span {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* Main and Aside layout side-by-side */
+main {
+    width: 60%;
+}
+
+aside {
+    width: 30%;
+}
+
+aside img {
+    max-width: 45%;
+    margin: 2%;
+}
+
+/* Footer layout */
+footer {
+    width: 100%;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Birdwatching Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700" rel="stylesheet">
+
+    <!-- Link to your style sheet -->
+    <link rel="stylesheet" href="birdwatching_style.css">
+
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Flex container wrapping the entire page content -->
+    <div class="flex-container">
+
+        <!-- 1. The Header -->
+        <header role="banner">
+            <h1>Birdwatching</h1>
+            <img src="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/document-and-website-structure/dove.png"
+                alt="a simple dove logo">
+        </header>
+
+        <!-- 2. The Navigation Menu -->
+        <nav role="navigation">
+            <ul>
+                <li><span>Home</span></li>
+                <li><a href="#">Get started</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Gear</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+        </nav>
+
+        <!-- 3. The Main Content & 4. Welcome Text -->
+        <main role="main">
+            <h2>Welcome</h2>
+            <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to
+                learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or
+                an expert wanting to share ideas, tips, and photos with other like-minded people.</p>
+            <p>So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!
+            </p>
+        </main>
+
+        <!-- 5. The Image Sidebar (Aside) -->
+        <aside role="complementary">
+            <h2>Favourite photos</h2>
+            <a href="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/document-and-website-structure/favorite-1.jpg"
+                target="_blank"><img
+                    src="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/document-and-website-structure/favorite-1_th.jpg"
+                    alt="Small black bird, black claws, long black slender beak, links to larger version of the image"></a>
+            <a href="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/document-and-website-structure/favorite-2.jpg"
+                target="_blank"><img
+                    src="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/document-and-website-structure/favorite-2_th.jpg"
+                    alt="Top half of a pretty bird with bright blue plumage on neck, light colored beak, blue headdress, links to larger version of the image"></a>
+            <a href="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/document-and-website-structure/favorite-3.jpg"
+                target="_blank"><img
+                    src="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/document-and-website-structure/favorite-3_th.jpg"
+                    alt="Top half of a large bird with white plumage, very long curved narrow light colored break, links to larger version of the image"></a>
+            <a href="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/document-and-website-structure/favorite-4.jpg"
+                target="_blank"><img
+                    src="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/document-and-website-structure/favorite-4_th.jpg"
+                    alt="Large bird, mostly white plumage with black plumage on back and rear, long straight white beak, links to larger version of the image"></a>
+        </aside>
+
+        <!-- 6. The Footer -->
+        <footer role="contentinfo">
+            <p>This fake website example is CC0 — any part of this code may be reused in any way you wish. Original
+                example written by Chris Mills, 2016.</p>
+            <p><a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a> by Lorc.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
